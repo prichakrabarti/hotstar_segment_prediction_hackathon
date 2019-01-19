@@ -31,3 +31,6 @@ dow: total watch time of the user spreaded across different days of week (7 days
 format “day_of_week:watch_time” separated by comma, e.g. “1:454, “6”:5444”
 segment target variable. consider them as interest segments. For modeling, encode pos = 1,
 neg = 0
+
+My approach:
+Convert all cities, genres, days of week and time of day into individual variables with the seconds as the value- so all variables have the same unit of comparison - seconds. Once this is done, we can apply the ML models to derive the final solution.
